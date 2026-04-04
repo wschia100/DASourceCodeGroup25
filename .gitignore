@@ -6,6 +6,8 @@ __pycache__/
 
 # Ignore CSV data files (keep folder structure and README placeholders)
 Input_Data/**/*.csv
+Input_Data/**/*.parquet
+
 
 # Ignore generated model artifacts (keep folder structure and README placeholders)
 Output_Models/**
