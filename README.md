@@ -1,5 +1,25 @@
 # CSC3105 Project
 
+## Setup Instructions
+
+Install all required dependencies before running any notebooks:
+
+```bash
+pip install -r requirements.txt
+```
+
+| Package | Purpose |
+|---|---|
+| `pandas` | Data loading and manipulation |
+| `numpy` | Numerical computing |
+| `matplotlib` | Plotting and visualization |
+| `seaborn` | Statistical data visualization |
+| `scipy` | Signal processing (`find_peaks`) |
+| `scikit-learn` | ML models, preprocessing, and evaluation |
+| `xgboost` | Gradient boosting classifier |
+
+---
+
 ## File Mapping to Assignment Components
 
 Our files are organized to match the assignment questions and implementation flow:
@@ -57,4 +77,18 @@ The project focuses on:
 - Input data is stored under `Input_Data/`.
 - Trained model outputs are stored under `Output_Models/`.
 - Large data/model artifacts are ignored via `.gitignore`, while folder structure is preserved with placeholder README files.
-- For notebook output cleaning setup, see `SETUP.md`.
+- For notebook output cleaning setup, see `TEAM_SETUP.md` *(for team use only).*
+
+---
+
+## Team Information
+
+Group: **25**
+
+| Team Member | UoG UID | SIT Student ID |
+|---|---|---|
+| Kenny Chin Aik Leck | 3070574L | 2403543 |
+| Chia Wei Sheng | 3070620C | 2400953 |
+| Low Lih Yih | 3070675L | 2402031 |
+| Chen Junwei | 3070589C | 2400609 |
+| Ong Tun Siang | 3070679O | 2402091 |
