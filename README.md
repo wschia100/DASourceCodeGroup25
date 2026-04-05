@@ -27,10 +27,13 @@ Our files are organized to match the assignment questions and implementation flo
 - `a_Data_Preparation.ipynb` → **(a) Data Preparation/Preprocessing**
 - `b_Data_Mining_Classification.ipynb` → **(b) Data Mining (Classification)**
 - `b_Data_Mining_Regression.ipynb` → **(b) Data Mining (Regression)**
-- `c_Data_Visualization.ipynb` → **(c) Data Visualization** (consolidated visualizations)
-- `d_Result_Analysis.ipynb` → **(d) Result Analysis**
 
-Data visualization is performed throughout the project, while consolidated plots can be found in `c_Data_Visualization.ipynb`.
+## Important Note
+
+**There are no separate notebooks for parts (c) and (d).**
+
+- **(c) Data Visualization is already integrated into** `a_Data_Preparation.ipynb`, `b_Data_Mining_Classification.ipynb`, and `b_Data_Mining_Regression.ipynb`.
+- **(d) Result Analysis is already integrated into** `b_Data_Mining_Classification.ipynb` and `b_Data_Mining_Regression.ipynb`.
 
 ## ML Scope
 
@@ -66,11 +69,13 @@ The project focuses on:
 
 ### (c) Data Visualization
 
-1. Plot relevant performance indicators to support choices and results from parts (a) and (b).
+1. Integrated into Data Preparation and Data Mining notebooks (no standalone notebook).
+2. Plots support preprocessing decisions and model evaluation.
 
 ### (d) Result Analysis
 
-1. Justify results with theoretical understanding.
+1. Integrated into Data Mining notebooks (no standalone notebook).
+2. Includes model-level evaluation, interpretation, and justification.
 
 ## Repository Notes
 
